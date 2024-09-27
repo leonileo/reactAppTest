@@ -7,21 +7,35 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ### `npm start`
-
+## Installation
+To get started with this project, follow these steps:
 ```bash
-  bash
+# Clone the repository
+   git clone https://github.com/leonileo/my_gym.git
+   cd my_gym
+
+# Install dependencies:
+#   If you're using npm:
+    npm install 
+#   or if you're using yarn:
+    yarn install
+
+# Create a .env file in the root directory and add the following environment variables:
+    NODE_ENV=ENVIRNOMENT
+    PORT=PORT_NUMBER
+    MONGO_URI=MONGO_URI
+    JWT_SECRET=YOUR_SUPER_SAFE_JWT_SECRET
+
+# Start the development server:
+#   To start both servers
+    npm run dev
+#   For frontend
+    cd frontend
+    npm run start
+#   For backend
+    cd backend
+    npm run server
 ```
-
-### 1. Register an account or log in using the credentials provided in the demo.
-### 2. Explore the features:
-*   Access personalized workout plans.
-*   Track your fitness progress.
-*   Manage user profiles and gym memberships.
-### 3. Admin Features:
-*   Suspend user accounts.
-*   Monitor user activity.
-*   Create and assign workout plans for all users.
-
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
