@@ -14,34 +14,34 @@ To get started with this project, follow these steps:
    git clone https://github.com/leonileo/my_gym.git
    cd my_gym
 
-# Install dependencies:
-#   If you're using npm:
+# Install dependencies
+
+#   If you're using npm
     npm install 
-#   or if you're using yarn:
+
+#   or if you're using yarn
     yarn install
 
-# Create a .env file in the root directory and add the following environment variables:
+# Create a .env file in the root directory and add the following environment variables
     NODE_ENV=ENVIRNOMENT
     PORT=PORT_NUMBER
     MONGO_URI=MONGO_URI
     JWT_SECRET=YOUR_SUPER_SAFE_JWT_SECRET
 
-# Start the development server:
+# Start the development server
+
 #   To start both servers
-    ```bash
     npm run dev
-    ```
+    
 #   For frontend
-    ```bash
     cd frontend
     npm run start
-    ```
+
 #   For backend
-    ```bash
     cd backend
     npm run server
-    ```
 ```
+
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
