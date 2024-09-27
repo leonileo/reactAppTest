@@ -28,13 +28,19 @@ To get started with this project, follow these steps:
 
 # Start the development server:
 #   To start both servers
+    ```bash
     npm run dev
+    ```
 #   For frontend
+    ```bash
     cd frontend
     npm run start
+    ```
 #   For backend
+    ```bash
     cd backend
     npm run server
+    ```
 ```
 
 Runs the app in the development mode.\
