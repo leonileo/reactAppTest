@@ -12,6 +12,17 @@ In the project directory, you can run:
   bash
 ```
 
+### 1. Register an account or log in using the credentials provided in the demo.
+### 2. Explore the features:
+*   Access personalized workout plans.
+*   Track your fitness progress.
+*   Manage user profiles and gym memberships.
+### 3. Admin Features:
+*   Suspend user accounts.
+*   Monitor user activity.
+*   Create and assign workout plans for all users.
+
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
